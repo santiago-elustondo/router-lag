@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+   <tr>
+      <th>Brand</th>
+      <th>Product Code</th>
+      <th>Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr #a 
+  *ngFor="let product of products" 
+  (click)="productClicked(product)">
+    <td> {{product.brand}} </td> 
+    <td> {{product.modelCode}} </td> 
+    <td> {{product.class}} </td> 
+    <td> {{product.description}} </td> 
+    </tr>
+  </tbody>
+</table>

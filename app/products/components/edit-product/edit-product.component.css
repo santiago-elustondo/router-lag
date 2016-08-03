@@ -1,0 +1,15 @@
+div.scrollable div.details {
+  display: flex;
+  height: 200px;
+}
+
+div.scrollable div.details div.left {
+   flex: 1;
+}
+
+div.scrollable div.details div.right {
+   flex: 1;
+}
+
+
+

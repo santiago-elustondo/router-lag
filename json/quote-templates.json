@@ -1,0 +1,579 @@
+{
+  "quotetemplate00001": {
+    "name": "Whirlpool style quote",
+    "columns": [
+      {
+        "columnHeaderText": "Row ID",
+        "visible": false,
+        "width": 50,
+        "sortable": true,
+        "sort-direction": "desc"
+      },
+      {
+        "columnHeaderText": "Room",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Model Code",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Brand",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Description",
+        "visible": true,
+        "width": 200,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Quantity",
+        "visible": true,
+        "width": 40,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Promo Tally Count",
+        "visible": false,
+        "width": 40,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "MSRP",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Discount",
+        "visible": false,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Unit Price",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Extended Price",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Requested Date",
+        "visible": true,
+        "width": 70,
+        "sortable": true
+      }
+    ],
+    "rows": [
+      {
+        "rowNumber": 1,
+        "rowType": "product",
+        "productKey": "",
+        "cells": [
+          "1",
+          "upper kitchen",
+          "JS48NXFXDE",
+          "Jenn-Air",
+          "48-inch side-by-side refrigerator/freezer",
+          "1",
+          "2",
+          "$12,299.99",
+          null,
+          "$10,823.99",
+          "$10,823.99",
+          "20-Aug-2016"
+        ]
+      },
+      {
+        "rowNumber": 2,
+        "rowType": "product",
+        "productKey": "FBKey-100000008",
+        "cells": [
+          "2",
+          "upper kitchen",
+          "UXB1200DYS",
+          "Jenn-Air",
+          "1200 CFM internal blower",
+          "1",
+          "0",
+          "$699.99",
+          null,
+          "$615.99",
+          "$615.99",
+          "20-Aug-2016"
+        ]
+      },
+      {
+        "rowNumber": 3,
+        "rowType": "product",
+        "productKey": "FBKey-100000009",
+        "cells": [
+          "3",
+          "upper kitchen",
+          "JGCP436WP",
+          "Jenn-Air",
+          "Pro-Style Gas Rangetop, 36\"",
+          "1",
+          "2",
+          "$4,549.99",
+          null,
+          "$4,003.00",
+          "$4,003.00",
+          "20-Aug-2016"
+        ]
+      },
+      {
+        "rowNumber": 4,
+        "parentRow": 1,
+        "rowType": "MPPR",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "20% Instant Savings",
+          "-$2,164.80",
+          null
+        ]
+      },
+      {
+        "rowNumber": 5,
+        "parentRow": 2,
+        "rowType": "MPPR",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "20% Instant Savings",
+          "-$800.60",
+          null
+        ]
+      },
+      {
+        "rowNumber": 6,
+        "parentRow": 3,
+        "rowType": "Subtotal",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Subtotal",
+          "$12,476.59",
+          null
+        ]
+      },
+      {
+        "rowNumber": 7,
+        "rowType": "Tax",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "HST",
+          "$2,007.59",
+          null
+        ]
+      },
+      {
+        "rowNumber": 8,
+        "rowType": "Total",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Total",
+          "$14,484.18",
+          null
+        ]
+      }
+    ]
+  },
+
+  "FBkey-quote00002": {
+    "quoteTemplate": "template002",
+    "title": "Delaware Property",
+    "comment": "Scenario 1 from Discount and Rebate Possibilities",
+    "revision": 1,
+    "derivedFrom": "FBkey-quote00001",
+    "dateTimeCreated": "6-Jun-2016 14:18:02",
+    "dateValidUntil": "16-Jun-2016",
+    "dateTimeSent": "8-Jun-2016 12:08:47",
+    "sentBy": "email",
+    "createdBy": "tdfarago",
+    "approvedBy": "rcaplan",
+    "customerID": "customer-key000001",
+    "projectName": "Smith - 2430 Wellington Street Unit 20",
+    "projectID": "project00001",
+    "columns": [
+      {
+        "columnHeaderText": "Line",
+        "visible": false,
+        "width": 20,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Location",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Model Code",
+        "visible": true,
+        "width": 70,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Brand",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Description",
+        "visible": true,
+        "width": 200,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Requested Date",
+        "visible": true,
+        "width": 70,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Unit Price",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Qty.",
+        "visible": true,
+        "width": 40,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Extended",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      }
+    ],
+    "rows": [
+      {
+        "rowNumber": 1,
+        "rowType": "product",
+        "productKey": "FBKey-100000003",
+        "cells": [
+          "1",
+          "kitchen",
+          "JS48NXFXDE",
+          "Jenn-Air",
+          "48-inch side-by-side refrigerator/freezer",
+          "20-Aug-2016",
+          "$10,823.99",
+          "1",
+          "$10,823.99"
+        ]
+      },
+      {
+        "rowNumber": 2,
+        "rowType": "product",
+        "productKey": "FBKey-100000008",
+        "cells": [
+          "2",
+          "kitchen",
+          "UXB1200DYS",
+          "Jenn-Air",
+          "1200 CFM internal blower",
+          "20-Aug-2016",
+          "$699.99",
+          "1",
+          "$615.99"
+        ]
+      },
+      {
+        "rowNumber": 3,
+        "rowType": "product",
+        "productKey": "FBKey-100000009",
+        "cells": [
+          "3",
+          "kitchen",
+          "JGCP436WP",
+          "Jenn-Air",
+          "Pro-Style Gas Rangetop, 36\"",
+          "20-Aug-2016",
+          "$4,549.99",
+          "1",
+          "$4,003.00"
+        ]
+      },
+      {
+        "rowNumber": 4,
+        "rowType": "Subtotal",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Subtotal",
+          "$12,476.59"
+        ]
+      },
+      {
+        "rowNumber": 5,
+        "rowType": "Tax",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "HST",
+          "$2,007.59"
+        ]
+      },
+      {
+        "rowNumber": 6,
+        "rowType": "Total",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Total",
+          "$14,484.18"
+        ]
+      }
+    ]
+  },
+
+  "FBkey-quote00003": {
+    "quoteTemplate": "template003",
+    "title": "Delaware Property",
+    "comment": "Scenario 2 from Discount and Rebate Possibilities",
+    "derivedFrom": "FBkey-quote00002",
+    "dateTimeCreated": "6-Jun-2016 14:18:02",
+    "dateValidUntil": "16-Jun-2016",
+    "dateTimeSent": "8-Jun-2016 12:08:47",
+    "sentBy": "email",
+    "createdBy": "tdfarago",
+    "approvedBy": "rcaplan",
+    "customerID": "customer-key000001",
+    "projectName": "Smith - 2430 Wellington Street Unit 20",
+    "projectID": "project00001",
+    "columns": [
+      {
+        "columnHeaderText": "Line",
+        "visible": false,
+        "width": 30,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Location",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Model Code",
+        "visible": true,
+        "width": 70,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Brand",
+        "visible": true,
+        "width": 80,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Description",
+        "visible": true,
+        "width": 200,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Requested Date",
+        "visible": true,
+        "width": 70,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Unit Price",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Qty.",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Discount",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      },
+      {
+        "columnHeaderText": "Extended",
+        "visible": true,
+        "width": 50,
+        "sortable": true
+      }
+    ],
+    "rows": [
+      {
+        "rowNumber": 1,
+        "rowType": "product",
+        "productKey": "FBKey-100000003",
+        "cells": [
+          "1",
+          "kitchen",
+          "JS48NXFXDE",
+          "Jenn-Air",
+          "48-inch side-by-side refrigerator/freezer",
+          "20-Aug-2016",
+          "$10,823.99",
+          "1",
+          "-$250.00",
+          "$10,823.99"
+        ]
+      },
+      {
+        "rowNumber": 2,
+        "rowType": "product",
+        "productKey": "FBKey-100000008",
+        "cells": [
+          "2",
+          "kitchen",
+          "UXB1200DYS",
+          "Jenn-Air",
+          "1200 CFM internal blower",
+          "20-Aug-2016",
+          "$699.99",
+          "1",
+          "-$100.00",
+          "$615.99"
+        ]
+      },
+      {
+        "rowNumber": 3,
+        "rowType": "product",
+        "productKey": "FBKey-100000009",
+        "cells": [
+          "3",
+          "kitchen",
+          "JGCP436WP",
+          "Jenn-Air",
+          "Pro-Style Gas Rangetop, 36\"",
+          "20-Aug-2016",
+          "$4,549.99",
+          "1",
+          "-50.00",
+          "$4,003.00"
+        ]
+      },
+      {
+        "rowNumber": 4,
+        "rowType": "Subtotal",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Subtotal",
+          "$12,476.59"
+        ]
+      },
+      {
+        "rowNumber": 5,
+        "rowType": "Tax",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "HST",
+          "$2,007.59"
+        ]
+      },
+      {
+        "rowNumber": 6,
+        "rowType": "Total",
+        "cells": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Total",
+          "$14,484.18"
+        ]
+      }
+    ]
+  }
+}

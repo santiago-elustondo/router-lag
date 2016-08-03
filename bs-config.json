@@ -1,0 +1,7 @@
+{
+	"port": 3389,
+  "snippetOptions": {
+    "ignorePaths": "bower_components/**/*.html"
+  },
+  "ghostMode": false
+}

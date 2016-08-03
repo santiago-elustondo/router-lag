@@ -1,0 +1,44 @@
+.blsp-pu-main {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.blsp-pu-header {
+  white-space: nowrap;
+  font-size: 20px;
+  background: #337ab7;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 15px;
+}
+
+.blsp-pu-header .blsp-pu-title {
+  flex:1 1 70%;
+} 
+
+.blsp-pu-header .blsp-pu-close {
+  flex:1 1 30%;
+} 
+
+.blsp-pu-menu {
+  padding: 5px;
+}
+
+.blsp-pu-menu li {
+  flex:1;
+}
+
+.blsp-pu-menuitem {
+  overflow: hidden;
+  max-height: 3.9em;
+}
+
+.blsp-pu-content {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+

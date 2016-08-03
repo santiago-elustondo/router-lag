@@ -1,0 +1,8 @@
+.blsp-lsh-selectlist {
+  width:100%;
+}
+
+.blsp-lsh-selectlist tr:hover{
+  cursor: pointer;
+  background: blue;
+}

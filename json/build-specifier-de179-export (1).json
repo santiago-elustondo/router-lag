@@ -1,0 +1,2296 @@
+{
+  "component_contents_UI" : {
+    "availabilityDropdown" : [ "active", "pending", "discontinued", "in-store only" ],
+    "brands" : [ "AGA", "Amana", "Avantgarde", "Blomberg", "Bosch", "Brigade", "Cavavin", "Dacor", "DGS", "Electrolux", "Electrolux ICON", "Fiaba", "Fisher & Pakel", "Frigidaire", "Frigidaire Gallery", "GE", "GE Cafe", "GE Monogram", "GE Profile", "gladiator Garageworks", "Jenn-Air", "KitchenAid", "LG", "Liebherr", "Maravel", "Maytag", "Miele", "Samsung", "SMEG", "Sub-Zero", "Thermador", "TRUE", "U-Line", "Viking", "Whirlpool" ],
+    "classDropdown" : [ "cooling", "cooking", "cleaning" ],
+    "finishByBrand" : {
+      "Jenn-Air" : [ "stainless steel", "black", "white", "silver", "black floating glass", "panel ready", "n/a" ],
+      "Samsung" : [ "stainless steel", "black stainless", "empire black", "snow white", "white", "black", "smooth black", "smooth white", "neat white", "stainless platinum", "blue sapphire", "black caviar", "onyx", "chrome", "silver", "porsche red", "red flame", "earth blue", "copper/white" ]
+    },
+    "finishDropdown" : [ "stainless steel", "black", "white", "silver", "black floating glass", "panel ready", "n/a" ],
+    "integrable" : [ "yes", "no", "subjective" ],
+    "seriesDropdown" : {
+      "Jenn-Air" : [ "Euro Style", "Pro Style", "Floating Glass" ]
+    },
+    "subclassDropdown" : {
+      "cleaning" : [ "dishwasher", "laundry washer", "laundry dryer", "trash compacter", "garbage disposal" ],
+      "cooking" : [ "range", "oven", "cooktop", "rangetop", "microwave", "over-the-range microwave,", "ventilation", "warming drawer", "built-in coffee maker", "outdoor grill" ],
+      "cooling" : [ "full-size refrigerator", "full-size refrigerator/freezer", "full-size freezer", "wine cooler", "under-counter refrigerator", "under-counter freezer", "chest freezer", "ice maker" ]
+    }
+  },
+  "price-lists" : {
+    "priceList00002" : {
+      "createdDateTime" : "15-Mar-16",
+      "currency" : "CAD",
+      "manufacturer" : "Whirlpool",
+      "priceGroupType" : "regular",
+      "sourceDocTitle" : "Jenn Air Price List Q2 2016",
+      "sourceDocURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/price_lists%2FJenn-Air%2FJenn%20Air%20Price%20List%20Q2%202016.xlsx?alt=media&token=7153adae-3f87-4fb3-918a-8a85c9eab134",
+      "startDate" : "1-Apr-16"
+    }
+  },
+  "prices" : {
+    "91000000" : {
+      "amount" : 4549.99,
+      "priceList" : "priceList00002",
+      "priceType" : "msrp",
+      "product" : "FBKey-100000009",
+      "sourceDocColumn" : "H",
+      "sourceDocColumnLabel" : "MSRP"
+    },
+    "91000001" : {
+      "amount" : 3412.0,
+      "minimumQty" : 1,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000009",
+      "sourceDocColumn" : "D",
+      "sourceDocColumnLabel" : "1 - 14 Units"
+    },
+    "91000002" : {
+      "amount" : 3344.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000009",
+      "sourceDocColumn" : "E",
+      "sourceDocColumnLabel" : "15 - 39 Units"
+    },
+    "91000003" : {
+      "amount" : 3276.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000009",
+      "sourceDocColumn" : "F",
+      "sourceDocColumnLabel" : "40+ Units"
+    },
+    "91000004" : {
+      "amount" : 4003.0,
+      "priceList" : "priceList00002",
+      "priceType" : "gotoPrice",
+      "product" : "FBKey-100000009",
+      "sourceDocColumn" : "G",
+      "sourceDocColumnLabel" : "Go-To"
+    },
+    "91000005" : {
+      "amount" : 12299.99,
+      "priceList" : "priceList00002",
+      "priceType" : "msrp",
+      "product" : "FBKey-100000003",
+      "sourceDocColumn" : "H",
+      "sourceDocColumnLabel" : "MSRP"
+    },
+    "91000006" : {
+      "amount" : 9225.0,
+      "minimumQty" : 1,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000003",
+      "sourceDocColumn" : "D",
+      "sourceDocColumnLabel" : "1 - 14 Units"
+    },
+    "91000007" : {
+      "amount" : 9041.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000003",
+      "sourceDocColumn" : "E",
+      "sourceDocColumnLabel" : "15 - 39 Units"
+    },
+    "91000008" : {
+      "amount" : 8856.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000003",
+      "sourceDocColumn" : "F",
+      "sourceDocColumnLabel" : "40+ Units"
+    },
+    "91000009" : {
+      "amount" : 10823.99,
+      "priceList" : "priceList00002",
+      "priceType" : "gotoPrice",
+      "product" : "FBKey-100000003",
+      "sourceDocColumn" : "G",
+      "sourceDocColumnLabel" : "Go-To"
+    },
+    "91000010" : {
+      "amount" : 699.99,
+      "priceList" : "priceList00002",
+      "priceType" : "msrp",
+      "product" : "FBKey-100000008",
+      "sourceDocColumn" : "H",
+      "sourceDocColumnLabel" : "MSRP"
+    },
+    "91000011" : {
+      "amount" : 504.0,
+      "minimumQty" : 1,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000008",
+      "sourceDocColumn" : "D",
+      "sourceDocColumnLabel" : "1 - 14 Units"
+    },
+    "91000012" : {
+      "amount" : 504.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000008",
+      "sourceDocColumn" : "E",
+      "sourceDocColumnLabel" : "15 - 39 Units"
+    },
+    "91000013" : {
+      "amount" : 504.0,
+      "minimumQty" : 15,
+      "priceList" : "priceList00002",
+      "priceType" : "dealerCost",
+      "product" : "FBKey-100000008",
+      "sourceDocColumn" : "F",
+      "sourceDocColumnLabel" : "40+ Units"
+    },
+    "91000014" : {
+      "amount" : 615.99,
+      "priceList" : "priceList00002",
+      "priceType" : "gotoPrice",
+      "product" : "FBKey-100000008",
+      "sourceDocColumn" : "G",
+      "sourceDocColumnLabel" : "Go-To"
+    }
+  },
+  "product_view-UI" : {
+    "productTableColumns" : [ {
+      "bindTo" : "rowID",
+      "displayWidth" : 30,
+      "displayWordWrap" : false,
+      "flex" : 1,
+      "headerText" : "#",
+      "justification" : "right",
+      "maxDisplayWidth" : 30,
+      "minDisplayWidth" : 30,
+      "printWidth" : 30,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "modelCode",
+      "cellStyleClass" : "basicTextCell",
+      "displayWidth" : 60,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerText" : "Model Code",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 50,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "thumbnailImage",
+      "displayWidth" : 80,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerText" : "Image",
+      "justification" : "centre",
+      "maxDisplayWidth" : 90,
+      "minDisplayWidth" : 80,
+      "printWidth" : 80,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : false
+    }, {
+      "bindTo" : "brand",
+      "displayWidth" : 70,
+      "displayWordWrap" : false,
+      "flex" : 8,
+      "headerText" : "Brand",
+      "justification" : "left",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 60,
+      "printWidth" : 70,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "class",
+      "displayWidth" : 60,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerText" : "Class",
+      "justification" : "left",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 60,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "subclass",
+      "displayWidth" : 60,
+      "displayWordWrap" : true,
+      "flex" : 4,
+      "headerText" : "Subclass",
+      "justification" : "left",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 60,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "isStandalone",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 1,
+      "headerText" : "Standalone",
+      "justification" : "centre",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "description",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 20,
+      "headerText" : "Description",
+      "justification" : "left",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "msrp",
+      "cellStyleClass" : "currencyTextCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 6,
+      "headerText" : "MSRP",
+      "justification" : "right",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "gotoPrice",
+      "cellStyleClass" : "currencyTextCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 6,
+      "headerText" : "GO TO Price",
+      "justification" : "right",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    } ]
+  },
+  "product_view_UI" : {
+    "productTableColumns" : [ {
+      "bindTo" : "rowID",
+      "cellCSSClass" : "rowNumCell",
+      "displayWidth" : 30,
+      "displayWordWrap" : false,
+      "flex" : 1,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "#",
+      "maxDisplayWidth" : 30,
+      "minDisplayWidth" : 30,
+      "printWidth" : 30,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "modelCode",
+      "cellCSSClass" : "defaultCell",
+      "displayWidth" : 60,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Model Code",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 50,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "thumbnailImage",
+      "cellCSSClass" : "imageCell",
+      "displayWidth" : 80,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Image",
+      "maxDisplayWidth" : 90,
+      "minDisplayWidth" : 80,
+      "printWidth" : 80,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : false
+    }, {
+      "bindTo" : "brand",
+      "cellCSSClass" : "defaultCell",
+      "displayWidth" : 70,
+      "displayWordWrap" : false,
+      "flex" : 8,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Brand",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 60,
+      "printWidth" : 70,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "class",
+      "cellCSSClass" : "defaultCell",
+      "displayWidth" : 60,
+      "displayWordWrap" : false,
+      "flex" : 4,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Class",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 60,
+      "printWordWrap" : false,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "subclass",
+      "cellCSSClass" : "defaultCell",
+      "displayWidth" : 60,
+      "displayWordWrap" : true,
+      "flex" : 4,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Subclass",
+      "maxDisplayWidth" : 80,
+      "minDisplayWidth" : 50,
+      "printWidth" : 60,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "isStandalone",
+      "cellCSSClass" : "flagCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 1,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Standalone",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "description",
+      "cellCSSClass" : "defaultCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 20,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "Description",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sortable" : false,
+      "visible" : true
+    }, {
+      "bindTo" : "msrp",
+      "cellCSSClass" : "currencyCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 6,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "MSRP",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    }, {
+      "bindTo" : "gotoPrice",
+      "cellCSSClass" : "currencyCell",
+      "displayWidth" : 50,
+      "displayWordWrap" : true,
+      "flex" : 6,
+      "headerCSSClass" : "mainGridClass",
+      "headerText" : "GO TO Price",
+      "maxDisplayWidth" : 55,
+      "minDisplayWidth" : 30,
+      "printWidth" : 50,
+      "printWordWrap" : true,
+      "printable" : false,
+      "sort-direction" : "ascending",
+      "sortable" : true,
+      "visible" : true
+    } ]
+  },
+  "products" : {
+    "-KLvZDpPY8H58WHHfDaY" : {
+      "class" : "cooling",
+      "extendedDescription" : "s",
+      "modelCode" : "3443",
+      "subclass" : "wine cooler"
+    },
+    "-KLvvdkUgU64zV6ZESs2" : {
+      "class" : "cooking",
+      "description" : "brap brap ha!",
+      "extendedDescription" : "dfgdfgdfgdf",
+      "modelCode" : "1234",
+      "subclass" : "oven"
+    },
+    "-KLvvtVEa0GrACRFDLZW" : {
+      "availability" : "active",
+      "brand" : "Blomberg",
+      "class" : "cooling",
+      "description" : "111111",
+      "finish" : "black",
+      "modelCode" : "11111",
+      "storeCode" : "234234234",
+      "storeCodeIsSame" : true,
+      "subclass" : "full-size refrigerator/freezer"
+    },
+    "-KLvvxCLrZqUD_INAgfb" : {
+      "brand" : "Avantgarde",
+      "class" : "cooling",
+      "description" : "3333",
+      "modelCode" : "3333",
+      "storeCode" : "234234234",
+      "storeCodeIsSame" : false,
+      "subclass" : "full-size refrigerator/freezer"
+    },
+    "-KLwSrMxErYf5nHWlzpC" : {
+      "brand" : "Bosch",
+      "description" : "sdfsdfsd",
+      "modelCode" : "dfdfd"
+    },
+    "-KLwT4TkhcCa8VRcNw76" : {
+      "brand" : "Brigade",
+      "description" : "ssssss",
+      "modelCode" : "dfdfdfd"
+    },
+    "-KLwT_bkPyfcj1D3LIkt" : {
+      "brand" : "GE Monogram",
+      "description" : "df",
+      "modelCode" : "ASDASD"
+    },
+    "-KLwTcXKGyfNW0akZzYX" : {
+      "brand" : "GE Monogram",
+      "description" : "dfSDFSDF",
+      "modelCode" : "FFFFFF"
+    },
+    "-KLwhotj-vaRGuroI0IA" : {
+      "brand" : "Viking",
+      "description" : "456",
+      "modelCode" : "Test1"
+    },
+    "-KLwiQlMzd0ibwPDZkCK" : {
+      "brand" : "Viking",
+      "description" : "456",
+      "modelCode" : "Test1"
+    },
+    "-KLwiTfH7Q3rvAheVrMm" : {
+      "brand" : "Viking",
+      "description" : "456",
+      "modelCode" : "Test1"
+    },
+    "-KLwiTyhNVqS-88docBh" : {
+      "brand" : "Viking",
+      "description" : "456",
+      "modelCode" : "Test1"
+    },
+    "FBKey-100000003" : {
+      "availability" : "active",
+      "availabilityDateTime" : "2016-07-20",
+      "brand" : "Jenn-Air",
+      "class" : "cooling",
+      "createdDateTime" : "11/19/2014",
+      "description" : "48\" Built-in Side-by-Side Refrigerator",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "48\" INTEGRATED SXS, NEW OBSIDIAN INTERIOR, MULTI-POINT LED LIGHTING, SOFT CLOSE CRISPERS, CLIMATE CONTROLLED DRAWERS, CAPACITIVE TOUCH CONTROLS, PRODUCE PRESERVER, ELEGANCE SHELVING, INTERNAL ICE MAKER, PANEL KIT NOT INCLUDED AND MUST BE ORDERED SEPARATELY",
+      "finish" : "panel ready",
+      "isIndoor" : true,
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : true,
+      "mainImageFilename" : "Standalone_1000x1000.png",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJenn%20Air%2FJS48NXFXDE%2FStandalone_1000x1000.png?alt=media&token=f6c52f5c-0454-4d33-9df1-f0cdfeae9dc6",
+      "marketingDimensions" : {
+        "depth" : {
+          "amount" : 24,
+          "units" : "inches"
+        },
+        "height" : {
+          "amount" : 60,
+          "units" : "inches"
+        },
+        "width" : {
+          "amount" : 36,
+          "units" : "inches"
+        }
+      },
+      "modelCode" : "JS48NXFXDE",
+      "moreImages:" : [ {
+        "fileName" : "img-680x240-JS48NXFXDE.png",
+        "fileURL" : "",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "series" : [ "Euro Style", "Pro Style", "Floating Glass" ],
+      "storeModelCode" : "JS48NXFXDE",
+      "subclass" : "full-size refrigerator",
+      "suppliers" : [ "Whirlpool Direct" ]
+    },
+    "FBKey-100000008" : {
+      "UPC" : "345345345345",
+      "availability" : "active",
+      "availabilityDateTime" : "2016-07-04",
+      "brand" : "Jenn-Air",
+      "class" : "cooking",
+      "createdDateTime" : "11/10/2014",
+      "description" : "1,200 CFM Internal Blower Motor",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "1200 CFM, INSTALLED INTERNALLY IN UNIT - REQUIRED FOR HOOD LINERS & COMMERCIAL STYLE HOODS",
+      "finish" : "n/a",
+      "isIndoor" : true,
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : false,
+      "mainImageFilename" : "UXB1200DYS.jpg",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJenn%20Air%2FUXB1200DYS%2FUXB1200DYS.jpg?alt=media&token=f2420ce8-f519-40d2-8d03-b80e4d9a5d7a",
+      "manufacturerSKU" : "35234234523324243245343",
+      "marketingDimensions" : {
+        "width" : {
+          "units" : "inches",
+          "width" : 36
+        }
+      },
+      "modelCode" : "UXB1200DYS",
+      "moreImages:" : [ {
+        "fileName" : "img-680x240-UXB1200DYS.png",
+        "fileURL" : "",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "series" : [ "Euro Style", "Pro Style" ],
+      "storeModelCode" : "UXB1200DYS-cap",
+      "subclass" : "ventilation",
+      "suppliers" : [ "Whirlpool Direct", "XYZ Distributors" ]
+    },
+    "FBKey-100000009" : {
+      "availability" : "active",
+      "availabilityDateTime" : "01-Jan-2015",
+      "brand" : "Jenn-Air",
+      "class" : "cooking",
+      "createdDateTime" : "06-Jun-2016",
+      "description" : "36\" Pro-Style Gas Rangetop",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "36\", 6 SEALED BURNERS, 2-20K STACKED , 3-15K, 1-5K (500 BTU SIMMER), ELECTRONIC IGNITION & FLAME SENSING RE-IGNITION, LP KIT INCLUDED, NEW VBL, METAL KNOBS WITH DIAMOND ETCHING",
+      "finish" : "stainless steel",
+      "isIndoor" : true,
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : true,
+      "mainImageFilename" : "JGCP436WP_Additional_550X550_P090047_10.jpg",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJGCP436WP_Additional_550X550_P090047_10.jpg?alt=media&token=ed7d37b2-6544-4183-bc98-0daff1bdcf3a",
+      "marketingDimensions" : {
+        "width" : {
+          "amount" : 36,
+          "direction" : "width",
+          "units" : "inches"
+        }
+      },
+      "modelCode" : "JGCP436WP",
+      "moreImages:" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "img-680x240-JGCP436WP.png",
+        "fileURL" : "",
+        "size" : "600 x 240",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "series" : [ "Pro Style" ],
+      "storeModelCode" : "JGCP436WP",
+      "subclass" : "rangetop",
+      "suppliers" : [ "Whirlpool Direct" ]
+    }
+  },
+  "products-3" : {
+    "FBKey-100000003" : {
+      "additionalSpecs" : [ "SXS", "new obsidian interior", "multi-point LED lighting", "soft close crispers", "climate controlled drawers", "capacitive touch controls", "produce preserver" ],
+      "availability" : "active",
+      "availabilityDateTime" : "01-Jan-2015",
+      "brand" : "Jenn-Air",
+      "class" : "cooling",
+      "createdDateTime" : "11/19/2014",
+      "description" : "48\" Built-in Side-by-Side Refrigerator",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JS48NXFXDE_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "48\" INTEGRATED SXS, NEW OBSIDIAN INTERIOR, MULTI-POINT LED LIGHTING, SOFT CLOSE CRISPERS, CLIMATE CONTROLLED DRAWERS, CAPACITIVE TOUCH CONTROLS, PRODUCE PRESERVER, ELEGANCE SHELVING, INTERNAL ICE MAKER, PANEL KIT NOT INCLUDED AND MUST BE ORDERED SEPARATELY",
+      "finish" : "panel ready",
+      "isIndoor" : true,
+      "isIntegrable" : "no",
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : "Y",
+      "mainImageFilename" : "Standalone_1000x1000.png",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJenn%20Air%2FJS48NXFXDE%2FStandalone_1000x1000.png?alt=media&token=f6c52f5c-0454-4d33-9df1-f0cdfeae9dc6",
+      "mainSpecs" : [ "48\"", "built-in", "side-by-side", "integrated ", "internal ice maker" ],
+      "marketingDimensions" : {
+        "depth" : {
+          "amount" : 24,
+          "units" : "inches"
+        },
+        "height" : {
+          "amount" : 60,
+          "units" : "inches"
+        },
+        "width" : {
+          "amount" : 48,
+          "units" : "inches"
+        }
+      },
+      "modelCode" : "JS48NXFXDE",
+      "moreImages:" : [ {
+        "fileName" : "img-680x240-JS48NXFXDE.png",
+        "fileURL" : "",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "priceSourceDoc" : [ {
+        "priceListFilename" : "Jenn Air Price List Q2 2016.xlsx"
+      }, {
+        "priceListFileURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/price_lists%2FJenn-Air%2FJenn%20Air%20Price%20List%20Q2%202016.xlsx?alt=media&token=7153adae-3f87-4fb3-918a-8a85c9eab134"
+      } ],
+      "prices" : [ {
+        "amount" : 12299.99,
+        "priceType" : "msrp",
+        "sourceDocColumn" : "H",
+        "sourceDocColumnLabel" : "MSRP"
+      }, {
+        "amount" : 9225.0,
+        "minimumQty" : 1,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "D",
+        "sourceDocColumnLabel" : "1 - 14 Units"
+      }, {
+        "amount" : 9041.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "E",
+        "sourceDocColumnLabel" : "15 - 39 Units"
+      }, {
+        "amount" : 8856.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "F",
+        "sourceDocColumnLabel" : "40+ Units"
+      }, {
+        "amount" : 10823.99,
+        "priceType" : "gotoPrice",
+        "sourceDocColumn" : "G",
+        "sourceDocColumnLabel" : "Go-To"
+      } ],
+      "series" : [ "Pro Style" ],
+      "storeModelCode" : "JS48NXFXDE",
+      "subclass" : "Refrigerator/Freezer",
+      "suppliers" : [ "Whirlpool Direct" ]
+    },
+    "FBKey-100000008" : {
+      "UPC" : "345345345345",
+      "additionalSpecs" : [ "Required for hood liners & commercial style hoods" ],
+      "availability" : "active",
+      "availabilityDateTime" : "01-Jan-2015",
+      "brand" : "Jenn-Air",
+      "class" : "cooking",
+      "createdDateTime" : "11/10/2014",
+      "description" : "1,200 CFM Internal Blower Motor",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "UXB1200DYS_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "1200 CFM, INSTALLED INTERNALLY IN UNIT - REQUIRED FOR HOOD LINERS & COMMERCIAL STYLE HOODS",
+      "finish" : "n/a",
+      "isIndoor" : true,
+      "isIntegrable" : "no",
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : "Y",
+      "mainImageFilename" : "UXB1200DYS.jpg",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJenn%20Air%2FUXB1200DYS%2FUXB1200DYS.jpg?alt=media&token=f2420ce8-f519-40d2-8d03-b80e4d9a5d7a",
+      "mainSpecs" : [ "1,200 CFM", "Internal BLower Motor", "installed internally in unit" ],
+      "manufacturerSKU" : "35234234523324243245343",
+      "marketingDimensions" : {
+        "width" : {
+          "units" : "inches",
+          "width" : 36
+        }
+      },
+      "modelCode" : "UXB1200DYS",
+      "moreImages:" : [ {
+        "fileName" : "img-680x240-UXB1200DYS.png",
+        "fileURL" : "",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "priceSourceDoc" : [ {
+        "priceListFilename" : "Jenn Air Price List Q2 2016.xlsx"
+      }, {
+        "priceListFileURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/price_lists%2FJenn-Air%2FJenn%20Air%20Price%20List%20Q2%202016.xlsx?alt=media&token=7153adae-3f87-4fb3-918a-8a85c9eab134"
+      } ],
+      "prices" : [ {
+        "amount" : 699.99,
+        "priceType" : "msrp",
+        "sourceDocColumn" : "H",
+        "sourceDocColumnLabel" : "MSRP"
+      }, {
+        "amount" : 504.0,
+        "minimumQty" : 1,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "D",
+        "sourceDocColumnLabel" : "1 - 14 Units"
+      }, {
+        "amount" : 504.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "E",
+        "sourceDocColumnLabel" : "15 - 39 Units"
+      }, {
+        "amount" : 504.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "F",
+        "sourceDocColumnLabel" : "40+ Units"
+      }, {
+        "amount" : 615.99,
+        "priceType" : "gotoPrice",
+        "sourceDocColumn" : "G",
+        "sourceDocColumnLabel" : "Go-To"
+      } ],
+      "series" : [ "Pro Style" ],
+      "storeModelCode" : "UXB1200DYS-cap",
+      "subclass" : "ventilation hood blower",
+      "suppliers" : [ "Whirlpool Direct", "XYZ Distributors" ]
+    },
+    "FBKey-100000009" : {
+      "additionalSpecs" : [ "electronic ignition", "flame-sensing re-ignition", "LP kit included", "new vbl", "metal knobs with diamond etching" ],
+      "availability" : "active",
+      "availabilityDateTime" : "01-Jan-2015",
+      "brand" : "Jenn-Air",
+      "class" : "cooking",
+      "createdDateTime" : "06-Jun-2016",
+      "description" : "36\" Pro-Style Gas Rangetop",
+      "documents" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Dimension_Guide_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Installation Instruction_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Use and Care_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      }, {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "JGCP436WP_Warranty_EN.pdf",
+        "fileURL" : "",
+        "source" : "Whirlpool"
+      } ],
+      "extendedDescription" : "36\", 6 SEALED BURNERS, 2-20K STACKED , 3-15K, 1-5K (500 BTU SIMMER), ELECTRONIC IGNITION & FLAME SENSING RE-IGNITION, LP KIT INCLUDED, NEW VBL, METAL KNOBS WITH DIAMOND ETCHING",
+      "finish" : "stainless steel",
+      "isIndoor" : true,
+      "isIntegrable" : "no",
+      "isOutdoor" : false,
+      "isPhysical" : true,
+      "isStandalone" : "Y",
+      "mainImageFilename" : "JGCP436WP_Additional_550X550_P090047_10.jpg",
+      "mainImageURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/images%2FJGCP436WP_Additional_550X550_P090047_10.jpg?alt=media&token=ed7d37b2-6544-4183-bc98-0daff1bdcf3a",
+      "mainSpecs" : [ "36\"", "Gas", "Rangetop", "6 sealed burners", "2 - 20,000 BTU stacked", "3 - 15,000 BTU", "1 - 5,000 BTU (500 BTU simmer)" ],
+      "marketingDimensions" : {
+        "width" : {
+          "amount" : 36,
+          "direction" : "width",
+          "units" : "inches"
+        }
+      },
+      "modelCode" : "JGCP436WP",
+      "moreImages:" : [ {
+        "addedDateTime" : "07-Jun-2016",
+        "fileName" : "img-680x240-JGCP436WP.png",
+        "fileURL" : "",
+        "size" : "600 x 240",
+        "type" : "thumbnail",
+        "view" : "front"
+      } ],
+      "priceSourceDoc" : [ {
+        "priceListFilename" : "Jenn Air Price List Q2 2016.xlsx"
+      }, {
+        "priceListFileURL" : "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/price_lists%2FJenn-Air%2FJenn%20Air%20Price%20List%20Q2%202016.xlsx?alt=media&token=7153adae-3f87-4fb3-918a-8a85c9eab134"
+      } ],
+      "prices" : [ {
+        "amount" : 4549.99,
+        "priceType" : "msrp",
+        "sourceDocColumn" : "H",
+        "sourceDocColumnLabel" : "MSRP"
+      }, {
+        "amount" : 3412.0,
+        "minimumQty" : 1,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "D",
+        "sourceDocColumnLabel" : "1 - 14 Units"
+      }, {
+        "amount" : 3344.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "E",
+        "sourceDocColumnLabel" : "15 - 39 Units"
+      }, {
+        "amount" : 3276.0,
+        "minimumQty" : 15,
+        "priceType" : "dealerCost",
+        "sourceDocColumn" : "F",
+        "sourceDocColumnLabel" : "40+ Units"
+      }, {
+        "amount" : 4003.0,
+        "priceType" : "gotoPrice",
+        "sourceDocColumn" : "G",
+        "sourceDocColumnLabel" : "Go-To"
+      } ],
+      "series" : [ "Pro Style" ],
+      "storeModelCode" : "JGCP436WP",
+      "subclass" : "rangetop",
+      "suppliers" : [ "Whirlpool Direct" ]
+    }
+  },
+  "products-in-price-lists" : [ {
+    "priceList" : "priceList00001",
+    "products" : [ "FBKey-100000003", "FBKey-100000008", "FBKey-100000009" ]
+  }, {
+    "priceList" : "priceList00002",
+    "products" : [ "FBKey-100000002", "FBKey-100000003", "FBKey-100000004", "FBKey-100000005", "FBKey-100000006", "FBKey-100000007", "FBKey-100000008", "FBKey-100000009", "FBKey-100000010", "FBKey-100000011", "FBKey-100000012", "FBKey-100000013" ]
+  } ],
+  "promotions" : {
+    "promotion0000001" : {
+      "claimBackName" : "May 2016 Jenn-Air Consumer Promotion",
+      "description" : "Jennair Experience Perfection Up to 20% Savings",
+      "discountClaimBackFormula" : "discount * 0.75",
+      "discountRules" : [ {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 1,
+        "sellingPriceDeduction" : "sellingPrice * 0.10"
+      }, {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 3,
+        "sellingPriceDeduction" : "sellingPrice * 0.15"
+      }, {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 5,
+        "sellingPriceDeduction" : "sellingPrice * 0.20"
+      } ],
+      "earliestOrderDate" : "20-May-2016",
+      "issuer" : "Whirlpool",
+      "latestClaimBackDate" : "30-Jul-2016",
+      "latestDeliveryDate" : "28-Sep-2016",
+      "latestOrderDate" : "02-Jun-2016",
+      "minSellingPrice" : "msrp * 0.88",
+      "qualifyingProductGroups" : {
+        "Group0001" : [ {
+          "products" : [ "FBKey-100000004", "FBKey-100000009", "FBKey-100000011", "FBKey-100000012", "FBKey-100000006", "FBKey-100000002", "FBKey-100000005" ],
+          "promoTally" : 1
+        }, {
+          "products" : [ "FBKey-100000010", "FBKey-100000004", "FBKey-100000003" ],
+          "promoTally" : 2
+        } ]
+      },
+      "rebateClaimBackFormula" : "rebate * 0.75",
+      "rebateRules" : [ {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 4,
+        "overallRebateAmount" : 0,
+        "rebateFormula" : ""
+      } ],
+      "requiresClaimback" : true
+    },
+    "promotion0000002" : {
+      "claimBackName" : "July-August 2016 Jenn-Air Brand Consumer Promotion",
+      "description" : "Jenn-Air Save the Tax & More Event",
+      "discountClaimBackFormula" : "discount * 0.75",
+      "discountRules" : [ {
+        "discountFormula" : "sellingPrice * 0.10",
+        "memberOf" : "Group0001",
+        "minPromoTally" : 2
+      }, {
+        "discountFormula" : "sellingPrice * 0.15",
+        "memberOf" : "Group0001",
+        "minPromoTally" : 3
+      } ],
+      "earliestOrderDate" : "24-Jul-2016",
+      "issuer" : "Whirlpool",
+      "latestClaimBackDate" : "30-Sep-2016",
+      "latestDeliveryDate" : "29-Nov-2016",
+      "latestOrderDate" : "31-Aug-2016",
+      "minSellingPrice" : "msrp * 0.88",
+      "qualifyingProductGroups" : {
+        "Group0001" : [ {
+          "products" : [ "FBKey-100000003", "FBKey-100000004", "FBKey-100000009" ],
+          "promoTally" : 1
+        }, {
+          "promoTally" : 2
+        } ]
+      },
+      "rebateClaimBackFormula" : "rebate * 0.75",
+      "rebateRules" : [ {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 4,
+        "overallRebateAmount" : 500,
+        "rebateFormula" : ""
+      } ],
+      "requiresClaimback" : true
+    },
+    "promotion0000003" : {
+      "claimBackName" : "July to September 2016 Jenn-Air Brand Consumer Promotion",
+      "description" : "Jenn-Air Appetite for Perfection",
+      "discountClaimBackFormula" : "discount * 0.75",
+      "discountRules" : [ {
+        "discountFormula" : "sellingPrice * 0.10",
+        "memberOf" : "Group0001",
+        "minPromoTally" : 1
+      }, {
+        "discountFormula" : "sellingPrice * 0.15",
+        "memberOf" : "Group0001",
+        "minPromoTally" : 3
+      } ],
+      "earliestOrderDate" : "1-Jul-2016",
+      "issuer" : "Whirlpool",
+      "latestClaimBackDate" : "31-Oct-2016",
+      "latestDeliveryDate" : "29-Dec-2016",
+      "latestOrderDate" : "30-Sep-2016",
+      "minSellingPrice" : "msrp * 0.88",
+      "qualifyingProductGroups" : {
+        "Group0001" : [ {
+          "products" : [ "FBKey-100000003", "FBKey-100000004", "FBKey-100000009", "FBKey-100000010" ],
+          "promoTally" : 1
+        }, {
+          "promoTally" : 2
+        } ]
+      },
+      "rebateClaimBackFormula" : "rebate * 0.75",
+      "rebateRules" : [ {
+        "memberOf" : "Group0001",
+        "minPromoTally" : 4,
+        "overallRebateAmount" : 0,
+        "rebateAmountsbyProduct" : [ {
+          "FBKey-100000003" : 750.0
+        }, {
+          "FBKey-100000004" : 350.0
+        }, {
+          "FBKey-100000009" : 250.0
+        }, {
+          "FBKey-100000010" : 750.0
+        } ],
+        "rebateFormula" : ""
+      } ],
+      "requiresClaimback" : true
+    }
+  },
+  "quotes" : {
+    "FBkey-quote00001" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 1: Promo not enacted. No savings offered",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "extendedPrice" : 615.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15443.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 2007.72,
+        "amountFormula" : "subtotal * 0.13",
+        "description" : "HST",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17451.69,
+        "amountFormula" : "subtotal + tax1",
+        "description" : "Total",
+        "rowType" : "total"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00002" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 2: Promo not enacted. Non-promotional savings are being offered as a discount in the discount column.",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : 50.0,
+          "discountType" : "salesperson",
+          "formula" : "quantity * -50.00",
+          "lineItem" : "line003",
+          "showInColumn" : "discount"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : -50.0,
+          "extendedPrice" : 565.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15393.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 2001.22,
+        "amountFormula" : "subtotal * 0.13",
+        "description" : "HST",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17395.19,
+        "amountFormula" : "subtotal + tax1",
+        "description" : "Total",
+        "rowType" : "total"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00003" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 3: Promo not enacted. Non-promotional savings are being offered as a line item discount.",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -50.0,
+          "amountColumn" : "unitPrice",
+          "column" : "description",
+          "description" : "Discount",
+          "discountType" : "salesperson",
+          "extendedAmount" : -50.0,
+          "extendedAmountColumn" : "extendedPrice",
+          "extendedFormula" : "discountQuantity * unitDiscount",
+          "formula" : "-50.00",
+          "quantity" : 1,
+          "quantityColumn" : "quantity",
+          "showInline" : true
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : -50.0,
+          "discounts" : [ "discount001" ],
+          "extendedPrice" : 565.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15393.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 2001.22,
+        "amountFormula" : "subtotal * 0.13",
+        "description" : "HST",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17395.19,
+        "amountFormula" : "subtotal + tax1",
+        "description" : "Total",
+        "rowType" : "total"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00004" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 4: Promo not enacted. Non-promotional savings being offered as line item discount and in discount column.",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -50.0,
+          "discountType" : "salesperson",
+          "formula" : "quantity * -50.00",
+          "showInDiscountColumn" : true
+        },
+        "discount002" : {
+          "amount" : -50.0,
+          "discountType" : "salesperson",
+          "formula" : "-50.00",
+          "lineItem" : "line003"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : -50.0,
+          "discounts" : [ "discount001", "discount002" ],
+          "extendedPrice" : 565.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15343.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1994.72,
+        "description" : "HST",
+        "formula" : "subtotal * 0.13",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17338.69,
+        "description" : "Total",
+        "formula" : "subtotal + tax1",
+        "rowType" : "total"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00005" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 5: Promo enacted. Promotional instant savings  offered as post-HST discounts.",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate001" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate002" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : 0,
+          "extendedPrice" : 615.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "rebates" : {
+        "rebate001" : {
+          "amount" : -1623.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        },
+        "rebate002" : {
+          "amount" : -600.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        }
+      },
+      "selectedPromotions" : [ "promotion0000001" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15443.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 2007.72,
+        "description" : "HST",
+        "formula" : "subtotal * 0.13",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17451.69,
+        "description" : "Total",
+        "formula" : "subtotal + tax1",
+        "rowType" : "total"
+      }, {
+        "amount" : -1623.6,
+        "description" : "Instant Savings",
+        "rebate" : "rebate001",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -600.6,
+        "description" : "Instant Savings",
+        "rebate" : "rebate002",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -211.07,
+        "description" : "Instant Savings",
+        "rebate" : "rebate001",
+        "rowType" : "rebateTaxAdjustment"
+      }, {
+        "amount" : -78.08,
+        "description" : "Instant Savings",
+        "rebate" : "rebate002",
+        "rowType" : "rebateTaxAdjustment"
+      }, {
+        "amount" : 14938.35,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00006" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 6: Promo enacted. Promotional instant savings shown pre-tax, embedded in line items",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -1623.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        },
+        "discount002" : {
+          "amount" : -600.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "discounts" : [ "discount001" ],
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "discounts" : [ "discount002" ],
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : 0,
+          "extendedPrice" : 615.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "selectedPromotions" : [ "promotion0000001" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 13219.78,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1718.57,
+        "amountFormula" : "subtotal * 0.13",
+        "description" : "HST",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 14938.35,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00007" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 7: Promo enacted. Promotional instant savings shown pre-tax in summary table",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -1623.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        },
+        "discount02" : {
+          "amount" : -600.6,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000001"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "discounts" : [ "discount001" ],
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "discounts" : [ "discount001" ],
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : 0,
+          "extendedPrice" : 615.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "selectedPromotions" : [ "promotion0000001" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : -1623.6,
+        "description" : "Instant Savings",
+        "discount" : "discount001",
+        "rowType" : "discount"
+      }, {
+        "amount" : -600.6,
+        "description" : "Instant Savings",
+        "discount" : "discount002",
+        "rowType" : "discount"
+      }, {
+        "amount" : 13219.78,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1718.57,
+        "amountFormula" : "subtotal * 0.13",
+        "description" : "HST",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 14938.35,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00008" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 8: Different Promo enacted. Promotional instant savings shown pre-tax in summary table",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -1407.12,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.13",
+          "promotion" : "promotion0000002"
+        },
+        "discount002" : {
+          "amount" : -520.52,
+          "discountType" : "manufacturer",
+          "formula" : "extendedPrice * -0.13",
+          "promotion" : "promotion0000002"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate001" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate002" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : 0,
+          "extendedPrice" : 615.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "rebates" : {
+        "rebate001" : {
+          "amount" : -500.0,
+          "discountType" : "manufacturer",
+          "formula" : "-500.00",
+          "promotion" : "promotion0000002"
+        }
+      },
+      "selectedPromotions" : [ "promotion0000002" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : -1407.12,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate001",
+        "rowType" : "preTaxDiscount"
+      }, {
+        "amount" : -520.52,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate002",
+        "rowType" : "preTaxDiscount"
+      }, {
+        "amount" : 13516.34,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1757.12,
+        "description" : "HST",
+        "formula" : "subtotal * 0.13",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 15273.46,
+        "description" : "Total",
+        "rowType" : "total"
+      }, {
+        "amount" : -500.0,
+        "description" : "Save the Tax & More Instant Rebate",
+        "rebate" : "rebate001",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -65.0,
+        "description" : "Tax Adjustment",
+        "rebate" : "rebate001",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : 14708.46,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00009" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 9: Different Promo enacted. Salesperson pre-tax discounts shown in-line and promotional instant savings shown post-tax in summary table",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -50.0,
+          "display" : "inline",
+          "formula" : "-50.00",
+          "promotion" : "promotion0000002",
+          "type" : "store"
+        },
+        "discount002" : {
+          "amount" : -50.0,
+          "display" : "extraLine",
+          "formula" : "-50.00",
+          "promotion" : "promotion0000002",
+          "type" : "store"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate001" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate002" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : -50.0,
+          "discounts" : [ "discount001", "discount002" ],
+          "extendedPrice" : 565.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "rebates" : {
+        "rebate001" : {
+          "amount" : -1407.12,
+          "formula" : "extendedPrice * -0.13",
+          "promotion" : "promotion0000002",
+          "type" : "manufacturer"
+        },
+        "rebate002" : {
+          "amount" : -520.52,
+          "formula" : "extendedPrice * -0.13",
+          "promotion" : "promotion0000002",
+          "type" : "manufacturer"
+        },
+        "rebate003" : {
+          "amount" : -500.0,
+          "formula" : "-500.00",
+          "promotion" : "promotion0000002",
+          "type" : "manufacturer"
+        }
+      },
+      "selectedPromotions" : [ "promotion0000002" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : 15343.97,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1994.72,
+        "description" : "HST",
+        "formula" : "subtotal * 0.13",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 17338.69,
+        "description" : "Total",
+        "rowType" : "total"
+      }, {
+        "amount" : -1407.12,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate001",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -520.52,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate002",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -500.0,
+        "description" : "Save the Tax & More Instant Rebate",
+        "rebate" : "rebate003",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -182.93,
+        "description" : "Tax Adjustment",
+        "rebate" : "rebate002",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : -67.67,
+        "description" : "Tax Adjustment",
+        "rebate" : "rebate003",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : -65.0,
+        "description" : "Tax Adjustment",
+        "rebate" : "rebate001",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : 14911.05,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    },
+    "FBkey-quote00010" : {
+      "approvedBy" : "rcaplan",
+      "comment" : "Scenario 10: Different Promo enacted. Combination of pre-tax discounts, and post-tax rebates",
+      "createdBy" : "tdfarago",
+      "customerID" : "customer-key000001",
+      "dateTimeCreated" : "6-Jun-2016 14:18:02",
+      "dateTimeIssued" : "",
+      "dateValidUntil" : "16-Jun-2016",
+      "derivedFrom" : "",
+      "discounts" : {
+        "discount001" : {
+          "amount" : -1623.6,
+          "display" : "summaryRow",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000003",
+          "type" : "manufacturer"
+        },
+        "discount002" : {
+          "amount" : -600.6,
+          "display" : "summaryRow",
+          "formula" : "extendedPrice * -0.15",
+          "promotion" : "promotion0000003",
+          "type" : "store"
+        }
+      },
+      "enableEditAccess" : [ "admin", "owner", "userkey-00002", "userkey-00005" ],
+      "enableReadAccess" : [ "all" ],
+      "hideColumns" : [ "discount", "rowID" ],
+      "lineItemData" : {
+        "line0001" : {
+          "description" : "48-inch side-by-side refrigerator/freezer",
+          "discounts" : [ "discount001" ],
+          "extendedPrice" : 10823.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JS48NXFXDE",
+          "msrp" : 12299.99,
+          "productID" : "FBKey-100000003",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate001" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 10823.99
+        },
+        "line0002" : {
+          "description" : "Pro-Style Gas Rangetop, 36\"",
+          "discounts" : [ "discount002" ],
+          "extendedPrice" : 4003.99,
+          "extendedPriceFormula" : "quantity * unitPrice",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "JGCP436WP",
+          "msrp" : 4549.99,
+          "productID" : "FBKey-100000009",
+          "promoTally" : 2,
+          "quantity" : 1,
+          "rebates" : [ "rebate002" ],
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 4003.99
+        },
+        "line0003" : {
+          "description" : "1200 CFM internal blower",
+          "discount" : -50.0,
+          "extendedPrice" : 565.99,
+          "extendedPriceFormula" : "quantity * unitPrice - discount",
+          "manufacturer" : "Jenn-Air",
+          "modelCode" : "UXB1200DYS",
+          "msrp" : 699.99,
+          "productID" : "FBKey-100000008",
+          "promoTally" : 0,
+          "quantity" : 1,
+          "requestedDate" : "20-Aug-2016",
+          "room" : "Kitchen",
+          "unitPrice" : 615.99
+        }
+      },
+      "lineItemTableSortColumn" : "modelCode",
+      "modifiable" : true,
+      "owner" : "user001key",
+      "printableFile" : [ {
+        "fileURL" : "",
+        "filename" : ""
+      } ],
+      "projectID" : "project00001",
+      "projectName" : "Smith - 2430 Wellington Street Unit 20",
+      "rebates" : {
+        "rebate001" : {
+          "amount" : -750.0,
+          "formula" : "-750.00",
+          "promotion" : "promotion0000002",
+          "type" : "manufacturer"
+        },
+        "rebate002" : {
+          "amount" : -250.0,
+          "formula" : "-250.00",
+          "promotion" : "promotion0000002",
+          "type" : "manufacturer"
+        }
+      },
+      "selectedPromotions" : [ "promotion0000003" ],
+      "sentBy" : "email",
+      "summaryLineData" : [ {
+        "amount" : -1623.6,
+        "description" : "Appetite for Perfection 15% Instant Savings for JS48NXFXDE",
+        "discount" : "discount001",
+        "rowType" : "discount"
+      }, {
+        "amount" : -600.6,
+        "description" : "Appetite for Perfection 15% Instant Savings for JGCP436WP",
+        "discount" : "discount002",
+        "rowType" : "discount"
+      }, {
+        "amount" : 13219.78,
+        "description" : "Subtotal",
+        "rowType" : "subtotal"
+      }, {
+        "amount" : 1718.57,
+        "description" : "HST",
+        "formula" : "subtotal * 0.13",
+        "rowType" : "taxType01"
+      }, {
+        "amount" : 14938.35,
+        "description" : "Total",
+        "rowType" : "total"
+      }, {
+        "amount" : -750.0,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate001",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -250.0,
+        "description" : "Save the Tax & More Instant Savings",
+        "rebate" : "rebate002",
+        "rowType" : "rebate"
+      }, {
+        "amount" : -97.5,
+        "description" : "Tax Adjustment on JS48NXFXDE Savings",
+        "rebate" : "rebate001",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : -32.5,
+        "description" : "Tax Adjustment on JGCP436WP Savings",
+        "rebate" : "rebate002",
+        "rowType" : "taxAdjustment"
+      }, {
+        "amount" : 13938.35,
+        "description" : "Grand Total",
+        "rowType" : "grandTotal"
+      } ],
+      "title" : "Delaware Property"
+    }
+  }
+}

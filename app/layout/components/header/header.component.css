@@ -1,0 +1,21 @@
+.blsp-header {
+  background-color: #337ab7;
+  color:white;
+}
+
+.blsp-middle-space {
+  flex: 1 1 auto;
+}
+
+.blsp-logo > md-icon,
+.blsp-logo > span {
+  vertical-align: middle;
+}
+
+.blsp-logo > md-icon {
+  margin-bottom: 1px;
+}
+
+.blsp-user {
+  font-size: 0.8em;
+}

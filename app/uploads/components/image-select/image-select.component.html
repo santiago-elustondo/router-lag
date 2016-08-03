@@ -1,0 +1,37 @@
+<div id="blsp-main" class="blsp-column">
+
+	<div class="blsp-row">
+		<div class="blsp-cell">
+			<div class="blsp-image-box">
+				<img #imageDisplay
+				[hidden]="!(_selectedImage)"
+				class="blsp-image">
+			</div>
+		</div><!-- cell -->
+	</div><!-- row -->
+
+	<div class="blsp-row" >
+		<div>
+			<input #imageInput
+				(change)="selectImage(imageInput)" 
+				style="display:none;"
+				type="file" name="pic" 
+				accept="image/*">
+			<button type="button" 
+				class="btn btn-primary"
+				(click)="imageInput.click()" >
+				Select Image
+			</button>
+		</div> <!-- cell -->
+		<div id="blsp-message"
+		class="blsp-cell">
+			<span #fileName> 
+					{{	(_selectedImage)
+					? _selectedImage.name 
+					: ''  }}
+			</span>
+		</div> <!-- cell -->
+	</div> <!-- row -->
+
+</div> <!-- column -->
+

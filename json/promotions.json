@@ -1,0 +1,188 @@
+{
+  "promotion0000001": {
+    "issuer": "Whirlpool",
+    "description": "Jennair Experience Perfection Up to 20% Savings",
+    "requiresClaimback": true,
+    "claimBackName": "May 2016 Jenn-Air Consumer Promotion",
+    "earliestOrderDate": "20-May-2016",
+    "latestOrderDate": "02-Jun-2016",
+    "latestDeliveryDate": "28-Sep-2016",
+    "latestClaimBackDate":  "30-Jul-2016",
+    "minSellingPrice":  "msrp * 0.88",
+    "discountClaimBackFormula":  "discount * 0.75",
+    "rebateClaimBackFormula":  "",
+    "optional": true,
+    "mfgPromoCode": "524231",
+
+    "qualifyingProductGroups": {
+      "Group0001": [
+        {
+          "promoTally": 1,
+          "products": [
+            "FBKey-100000004",
+            "FBKey-100000009",
+            "FBKey-100000011",
+            "FBKey-100000012",
+            "FBKey-100000006",
+            "FBKey-100000002",
+            "FBKey-100000005"
+          ]
+        },
+        {
+          "promoTally": 2,
+          "products": [
+            "FBKey-100000010",
+            "FBKey-100000004",
+            "FBKey-100000003"
+          ]
+        }
+      ]
+    },
+
+    "discountRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 1,
+        "discountFormula": "sellingPrice * -0.10"
+      },
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 3,
+        "discountFormula": "sellingPrice * -0.15"
+      },
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 5,
+        "discountFormula": "sellingPrice * -0.20"
+      }
+    ],
+
+    "rebateRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 4,
+        "rebateFormula": "",
+        "overallRebateAmount": 0,
+        "rebateAmountsbyProduct": []
+      }
+    ]
+  },
+
+  "promotion0000002": {
+    "issuer": "Whirlpool",
+    "description": "Jenn-Air Save the Tax & More Event",
+    "requiresClaimback": true,
+    "claimBackName": "July-August 2016 Jenn-Air Brand Consumer Promotion",
+    "earliestOrderDate": "24-Jul-2016",
+    "latestOrderDate": "31-Aug-2016",
+    "latestDeliveryDate": "29-Nov-2016",
+    "latestClaimBackDate":  "30-Sep-2016",
+    "minSellingPrice":  "msrp * 0.88",
+    "discountClaimBackFormula":  "discount * 0.75",
+    "rebateClaimBackFormula":  "rebate * 0.75",
+    "optional": true,
+    "mfgPromoCode": "524241",
+
+    "qualifyingProductGroups": {
+      "Group0001": [
+        {
+          "promoTally": 1,
+          "products": [
+            "FBKey-100000003",
+            "FBKey-100000004",
+            "FBKey-100000009"
+          ]
+        },
+        {
+          "promoTally": 2,
+          "products": []
+        }
+      ]
+    },
+
+    "discountRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 2,
+        "discountFormula": "sellingPrice * -0.10"
+      },
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 3,
+        "discountFormula": "sellingPrice * -0.15"
+      }
+    ],
+
+    "rebateRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 4,
+        "rebateFormula": "",
+        "overallRebateAmount": -500,
+        "rebateAmountsbyProduct": []
+      }
+    ]
+  },
+
+  "promotion0000003": {
+    "issuer": "Whirlpool",
+    "description": "Jenn-Air Appetite for Perfection",
+    "requiresClaimback": true,
+    "claimBackName": "July to September 2016 Jenn-Air Brand Consumer Promotion",
+    "earliestOrderDate": "1-Jul-2016",
+    "latestOrderDate": "30-Sep-2016",
+    "latestDeliveryDate": "29-Dec-2016",
+    "latestClaimBackDate":  "31-Oct-2016",
+    "minSellingPrice":  "msrp * 0.88",
+    "discountClaimBackFormula":  "discount * 0.75",
+    "rebateClaimBackFormula":  "rebate * 0.75",
+    "optional": true,
+    "mfgPromoCode": "522231",
+
+    "qualifyingProductGroups": {
+      "Group0001": [
+        {
+          "promoTally": 1,
+          "products": [
+            "FBKey-100000003",
+            "FBKey-100000004",
+            "FBKey-100000009",
+            "FBKey-100000010"
+          ]
+        },
+        {
+          "promoTally": 2,
+          "products": []
+        }
+      ]
+    },
+
+    "discountRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 1,
+        "discountFormula": "sellingPrice * -0.10"
+      },
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 3,
+        "discountFormula": "sellingPrice * -0.15"
+      }
+    ],
+
+    "rebateRules": [
+      {
+        "memberOf": "Group0001",
+        "minPromoTally": 4,
+        "rebateFormula": "",
+        "overallRebateAmount": 0,
+        "rebateAmountsbyProduct": [
+          {"FBKey-100000003": -750.00},
+          {"FBKey-100000004": -350.00},
+          {"FBKey-100000009": -250.00},
+          {"FBKey-100000010": -750.00}
+        ]
+      }
+    ]
+  }
+}

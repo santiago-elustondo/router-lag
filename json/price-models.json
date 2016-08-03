@@ -1,0 +1,174 @@
+{
+  "Jenn-Air": {
+    "msrp": {
+      "label": "MSRP",
+      "uiFieldType": "input",
+      "format": "currency"
+    },
+    "msp": {
+      "label": "MSP",
+      "uiFieldType": "static",
+      "format": "currency",
+      "valueFrom": "msp-formula",
+      "default-formula": "roundToUnits( msrp * 0.88 )"
+    },
+    "msp-formula": {
+      "label": "Formula",
+      "uiFieldType": "input",
+      "valueFrom": ""
+    }
+
+  },
+
+  "Thermador": {
+
+  },
+
+  "Sub-Zero": {
+
+  },
+
+  "Miele": {
+
+  },
+
+  "KitchenAid": {
+
+  },
+
+  "Samsung": {
+
+  },
+
+  "Electrolux": {
+
+  },
+
+  "Maytag": {
+
+  },
+
+  "ASKO": {
+
+  },
+
+  "Wolf": {
+
+  },
+
+  "Strauss": {
+
+  },
+
+  "FCI": {
+
+  },
+
+  "Perlick": {
+
+  },
+
+  "Bosch": {
+
+  },
+
+  "Bertazzoni": {
+
+  },
+
+  "Dacor": {
+
+  },
+
+  "Amana": {
+
+  },
+
+  "Sirius": {
+
+  },
+
+  "GE Profile": {
+
+  },
+
+  "Gladiator Garageworks": {
+
+  },
+
+  "SMEG": {
+
+  },
+
+  "Fhiaba": {
+
+  },
+
+  "Blomberg": {
+
+  },
+
+  "Fisher & Paykel": {
+
+  },
+
+  "Frigidaire": {
+
+  },
+
+  "Frigidaire Gallery": {
+
+  },
+
+  "LG": {
+
+  },
+
+  "TRUE": {
+
+  },
+
+  "Brigade": {
+
+  },
+
+  "Liebherr": {
+
+  },
+
+  "U-Line": {
+
+  },
+
+  "Cavavin": {
+
+  },
+
+  "GE": {
+
+  },
+
+  "Whirlpool": {
+
+  },
+
+  "Marvel": {
+
+  },
+
+  "Viking": {
+
+  },
+
+  "GE Cafe": {
+
+  },
+
+  "DCS": {
+
+  },
+
+  "Monogram": {
+
+  }
+}

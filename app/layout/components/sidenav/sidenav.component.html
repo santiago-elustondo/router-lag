@@ -1,0 +1,12 @@
+<md-nav-list>
+  <a (click)="clickLink($event)" 
+  md-list-item routerLink="/dogs" routerLinkActive="active">
+    <md-icon md-list-icon>list</md-icon>
+    <span md-line>Dogs</span>
+  </a>
+  <a (click)="clickLink($event)"
+  md-list-item routerLink="/cats" routerLinkActive="active">
+    <md-icon md-list-icon>file_upload</md-icon>
+    <span md-line>Cats</span>
+  </a>
+</md-nav-list>

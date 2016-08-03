@@ -1,0 +1,44 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+div.display-column {
+  background: lightcyan;
+}
+
+div.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+div.display-column {
+  flex:3 1 500px;
+}
+
+
+div.edit-column {
+  flex:0 1 800px;
+}
+
+
+@media all and (max-width: 600px) {
+  div.columns {
+    flex-direction: column;
+  }
+
+  div.display-column {
+    flex:1;
+  }
+
+
+  div.edit-column {
+    flex:1;
+  }
+
+}

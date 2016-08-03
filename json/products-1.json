@@ -1,0 +1,795 @@
+{
+
+  "FBKey-100000002":  {
+    "modelCode":   "UXL6036YSS",
+    "class":  "cooking",
+    "subclass": "Ventilation - Custom Hood Liner",
+    "brand": "Jenn-Air",
+    "shortDescription": "36-inch Custom  ventilation hood liner (blowewr sold separately",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "03/04/2016",
+    "storeModelCode": "UXL6036YSS",
+    "orderabilityStatus": "current",
+    "manufacturerSKU":    "32452345345",
+    "UPC":                "3253555345",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct", "XYZ Distributors" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-UXL6036YSS",
+      "thumbnail":  "img-thumb-250x250-UXL6036YSS"
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 36,
+        "units": "inches"
+      },
+      "depth": {
+        "amount": 16,
+        "units": "inches"
+      },
+      "height": {
+        "amount": 32,
+        "units": "inches"
+      }
+    },
+
+    "features": [
+      {"finish":  "stainless"},
+      {"cfm":  "depends on blower"},
+      {"style":    "Pro-Style"},
+      "wall mount"
+    ],
+
+    "specSheetPDFs":  [
+      {
+        "filename": "spec-UXL6036YSS-001",
+        "dateAdded":  "12/03/2015"
+      },
+
+      {
+        "filename": "spec-UXL6036YSS-001",
+        "dateAdded":  "12/03/2015"
+      }
+    ],
+
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-UXL6036YSS-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-UXL6036YSS-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-UXL6036YSS-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+  "FBKey-100000003":  {
+    "modelCode":   "JS48NXFXDE",
+    "class":  "cooling",
+    "subclass": "Refrigerator/Freezer",
+    "brand": "Jenn-Air",
+    "shortDescription": "48-inch side-by-side refrigerator/freezer",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "11/19/2014",
+    "storeModelCode": "JS48NXFXDE",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-JS48NXFXDE",
+      "thumbnail":  "img-thumb-250x250-JS48NXFXDE"
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 36,
+        "units": "inches"
+      },
+      "depth": {
+        "amount": 24,
+        "units": "inches"
+      },
+      "height": {
+        "amount": 60,
+        "units": "inches"
+      }
+
+    },
+
+    "features": [
+        "built-in",
+        "side-by-side",
+        {"finish": "stainless"}
+    ],
+
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-JS48NXFXDE-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-JS48NXFXDE-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-JS48NXFXDE-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-JS48NXFXDE-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-JS48NXFXDE-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+  "FBKey-100000004":  {
+    "modelCode":   "JDRP436WP",
+    "class":  "cooking",
+    "series": "Pro-Style",
+    "subclass": "cooking",
+    "brand": "Jenn-Air",
+    "shortDescription": "36-inch Pro-Style 6-burner duel-fuel range",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "11/10/2014",
+    "storeModelCode": "JDRP436WP-cap",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct", "XYZ Distributors" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-JDRP436WP",
+      "thumbnail":  "img-thumb-250x250-JDRP436WP"
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 36,
+        "units": "inches"
+      }
+    },
+
+    "features": [
+      "built-in",
+      {"burners":  6}
+    ],
+
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-JDRP436WP-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-JDRP436WP-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+  "100000005":  {
+    "modelCode":   "JDB9800CWP",
+    "class":  "cleaning",
+    "series": "Pro-Style",
+    "subclass": "Dishwasher",
+    "brand": "Jenn-Air",
+    "shortDescription": "24-inch Pro-Style built-in dishwasher",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "11/11/2014",
+    "storeModelCode": "JDRP436WP-cap",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-JDRP436WP",
+      "thumbnail":  "img-thumb-250x250-JDRP436WP"
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": "24",
+        "units": "inches"
+      },
+      "height": {
+        "amount": "28",
+        "units": "inches"
+      },
+      "depth": {
+        "amount": "22",
+        "units": "inches"
+      }
+    },
+
+    "features": [
+      "built-in"
+    ],
+
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-JDRP436WP-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-JDRP436WP-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-JDRP436WP-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+  "FBKey-100000006":  {
+    "modelCode":   "JFC2290REM",
+    "class":  "cooling",
+    "series": "Euro-Style",
+    "subclass": "Refrigerator",
+    "brand": "Jenn-Air",
+    "shortDescription": "24-inch Pro-Style built-in dishwasher",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "11/11/2014",
+    "style":    "French Door",
+    "storeModelCode": "JDRP436WP-cap",
+    "orderabilityStatus": "current",
+    "manufacturerSKU":    "35234234523324243245343",
+    "UPC":                "345345345345",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct", "XYZ Distributors" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-JFC2290REM",
+      "thumbnail":  "img-thumb-250x250-JFC2290REM"
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 36,
+        "units": "inches"
+      },
+      "height": {
+        "amount": "72",
+        "units": "inches"
+      },
+      "depth": {
+        "amount": "24",
+        "units": "inches"
+      }
+    },
+
+    "features": [
+      "free-standing",
+      {"finish":  "stainless"},
+      "French doors"
+    ],
+
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-JFC2290REM-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-JFC2290REM-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-JFC2290REM-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-JFC2290REM-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-JFC2290REM-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+  "FBKey-100000007":  {
+    "modelCode":   "JPK48SNXEPS",
+    "class":  "cooling",
+    "series": "Pro-Style",
+    "subclass": "Refrigerator Accessory",
+    "brand": "Jenn-Air",
+    "shortDescription": "48-inch Pro-Style panel and handle kit",
+    "standaloneOrAccessory": "accessory",
+    "dateCreated":  "11/11/2014",
+    "storeModelCode": "JPK48SNXEPS-cap",
+    "orderabilityStatus": "current",
+    "manufacturerSKU":    "35234234523324243245343",
+    "UPC":                "345345345345",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct", "XYZ Distributors" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-JPK48SNXEPS",
+      "thumbnail":  "img-thumb-250x250-JPK48SNXEPS"
+    },
+    "marketingDimension": {
+      "x": {
+        "direction": "width",
+        "amount": 48,
+        "units": "inches"
+      },
+      "y": {
+        "direction": "height",
+        "amount": "72",
+        "units": "inches"
+      }
+    },
+    "features": {
+      "finish":  "stainless"
+    },
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-JPK48SNXEPS-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-JPK48SNXEPS-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-JPK48SNXEPS-001",
+        "dateAdded":  "12/03/2015"
+      }
+    }
+  },
+
+
+  "FBKey-100000008":  {
+    "modelCode":   "UXB1200DYS",
+    "class":  "cooking",
+    "subclass": "ventilation hood blower",
+    "brand": "Jenn-Air",
+    "shortDescription": "1200 CFM internal blower for XYZ-series liners",
+    "standaloneOrAccessory": "accessory",
+    "dateCreated":  "11/10/2014",
+    "storeModelCode": "UXB1200DYS-cap",
+    "orderabilityStatus": "current",
+    "manufacturerSKU":    "35234234523324243245343",
+    "UPC":                "345345345345",
+    "physicalProduct":  true,
+    "suppliers": [ "Whirlpool Direct", "XYZ Distributors" ],
+    "imageFiles:": {
+      "mainImageFile":  "img-680x240-UXB1200DYS",
+      "thumbnail":  "img-thumb-250x250-UXB1200DYS"
+    },
+    "marketingDimensions": {
+      "width": {
+        "width": 36,
+        "units": "inches"
+      }
+    },
+    "specSheetPDFs":  {
+      "000001": {
+        "filename": "spec-UXB1200DYS-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "000002": {
+        "filename": "spec-UXB1200DYS-001",
+        "dateAdded":  "12/03/2015"
+      }
+    },
+    "BrochurePDFs":  {
+      "2000001": {
+        "filename": "brochure-UXB1200DYS-001",
+        "dateAdded":  "12/03/2015"
+      },
+      "2000002": {
+        "filename": "brochure-UXB1200DYS-002",
+        "dateAdded":  "5/03/2015"
+      },
+      "2000003": {
+        "filename": "brochure-UXB1200DYS-003",
+        "dateAdded":  "12/03/2014"
+      }
+    }
+  },
+
+
+  "FBKey-100000009":  {
+    "modelCode":   "JGCP436WP",
+    "class":  "cooking",
+    "subclass": "rangetop",
+    "brand": "Jenn-Air",
+    "shortDescription": "Pro-Style Gas Rangetop, 36\"",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "06-Jun-2016",
+    "storeModelCode": "JGCP436WP",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": ["Whirlpool Direct" ],
+    "images:": {
+      "mainImage":  "JGCP436WP_Additional_550X550_P090047_10.jpg",
+      "thumbnails":  [
+        "JGCP436WP_Feature_100X100_P100184_4.jpg",
+        "JGCP436WP_Feature_100X100_P100184_9.jpg",
+        "JGCP436WP_Feature_100X100_P100184_9.jpg"],
+      "featureImages": [
+        "JGCP436WP_Feature_550X550_P100184_10.jpg",
+        "JGCP436WP_Feature_550X550_P100184_11.jpg",
+        "JGCP436WP_Feature_550X550_P100184_4.jpg",
+        "JGCP436WP_Feature_550X550_P100184_9.jpg"
+      ]
+    },
+    "marketingDimensions": {
+      "width": {
+        "direction": "width",
+        "amount": 36,
+        "units": "inches"
+      }
+    },
+    "mfgDocuments":  [
+      {
+        "filename": "JGCP436WP_Dimension_Guide_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "filename": "JGCP436WP_Installation Instruction_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "filename": "JGCP436WP_Use and Care_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "filename": "JGCP436WP_Warranty_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      }
+    ]
+  },
+
+
+  "FBKey-100000010":  {
+    "modelCode":   "JS42NXFXDE",
+    "class":  "cooling",
+    "subclass": "refrigerator",
+    "brand": "Jenn-Air",
+    "mfgWebPage": "https://jennair.com/appliances/details/JS42NXFXDE",
+    "shortDescription": "42\" Integrated/Built-in Side by Side Fridge (Obsidian Interior; New-Gen",
+    "extendedDescription": "42\" INTEGRATED SXS, NEW OBSIDIAN INTERIOR, MULTI-POINT LED LIGHTING, SOFT CLOSE CRISPERS, CLIMATE CONTROLLED DRAWERS, CAPACITIVE TOUCH CONTROLS, PRODUCE PRESERVER, ELEGANCE SHELVING, INTERNAL ICE MAKER, PANEL KIT NOT INCLUDED AND MUST BE ORDERED SEPARATELY",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "06-Jun-2016",
+    "storeModelCode": "JS42NXFXDE",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": ["Whirlpool Direct" ],
+    "images:": {
+      "mainImage":  "JS42NXFXDE_Standalone_1000x1000.png",
+      "thumbnails":  [
+        "JS42NXFXDE_Feature_100X100_P090277_4.jpg,",
+        "JS42NXFXDE_Feature_100X100_P100185_16.jpg"
+        ],
+      "featureImages": [
+        "JS42NXFXDE_Standalone_550X550.png",
+        "JS42NXFXDE_Feature_550X550_P090277_4.jpg",
+        "JS42NXFXDE_Feature_550X550_P100185_16.jpg"
+      ]
+    },
+    "marketingDimensions": {
+      "width": {
+        "direction": "width",
+        "amount": 42,
+        "units": "inches"
+      }
+    },
+    "mfgDocuments":  [
+      {
+        "title": "JS42NXFXDE Dimension Guide",
+        "filename": "JS42NXFXDE_Dimension_Guide_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JS42NXFXDE Energy Guide",
+        "filename": "JS42NXFXDE_Energy_Guide_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JS42NXFXDE Installation Instructions",
+        "filename": "JS42NXFXDE_Installation_Instruction_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JS42NXFXDE Use and Care",
+        "filename": "JS42NXFXDE_Use_and_Care_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JS42NXFXDE Warranty",
+        "filename": "JS42NXFXDE_Warranty_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      }
+    ]
+  },
+
+
+  "FBKey-100000011":  {
+    "modelCode": "JMW2430DS",
+    "class":  "cooking",
+    "subclass": "microwave/wall oven",
+    "brand": "Jenn-Air",
+    "mfgWebPage": "https://jennair.com/appliances/details/JMW2430DS",
+    "shortDescription": "30\" Microwave/Wall Oven with MultiMode® Convection System",
+    "extendedDescription": "30\", 5.0 CU. FT, 4.3” ENHANCED TOUCH LCD, CONVECTION, 4000W REFLECTIVE BROIL, PREM.ROLLOUT RACK, 1.4 CUFT SPEED COOK CONVECT MICRO, LARGE WINDOW, FLUSH TO CABINET DESIGN",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "06-Jun-2016",
+    "storeModelCode": "JMW2430DS",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": ["Whirlpool Direct" ],
+    "features": {
+      "finish":  "stainless",
+      "style": "Euro Style"
+    },
+    "images:": {
+      "mainImage":  "JMW2430DS_Standalone_1000x1000.png",
+      "thumbnails":  [],
+      "featureImages": [
+        "JMW2430DS_Standalone_550X550.png"
+      ]
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 30,
+        "units": "inches"
+      },
+      "height": {
+        "amount": 43.75,
+        "units": "inches"
+      },
+      "depth": {
+        "amount": 23.25,
+        "units": "inches"
+      },
+      "cutoutWidth": {
+        "amount": 28.5,
+        "units": "inches"
+      },
+      "cutoutDepth": {
+        "amount": 24,
+        "units": "inches"
+      },
+      "cutoutHeight": {
+        "amount": 41.375,
+        "units": "inches"
+      }
+    },
+    "mfgDocuments":  [
+      {
+        "title": "JMW2430DS Dimension Guide",
+        "filename": "JMW2430DS_Dimension Guide_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JMW2430DS Flush Installation Instructions.pdf",
+        "filename": "JMW2430DS_Flush Installation Instructions_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JMW2430DS Installation Instructions",
+        "filename": "JMW2430DS_Installation Instruction_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JMW2430DS Microwave Use_and Care",
+        "filename": "JMW2430DS_Microwave_Use_and_Care_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JMW2430DS Use and Care",
+        "filename": "JMW2430DS_Use and Care_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JMW2430DS Warranty.pdf",
+        "filename": "JMW2430DS_Warranty_EN.pdf",
+        "dateAdded":  "07-Jun-2016"
+      }
+
+    ]
+  },
+
+  "FBKey-100000012":  {
+    "modelCode": "JDB9200CWS",
+    "class":  "cleaning",
+    "subclass": "dishwasher",
+    "brand": "Jenn-Air",
+    "mfgWebPage": "http://www.jennair.ca/appliances/dishwashers/JDB9200CWS-trifecta-dishwasher-with-42-dba/",
+    "shortDescription": "TriFecta™ Dishwasher with 42 dBA",
+    "extendedDescription": "STAINLESS STEEL TUB, FULLY INTEGRATED, 42 DBA, TRIFECTA WASH SYSTEM, SENSOR WASH, PERCISION DRY, STEAM, 6 CYCLES/6 OPTIONS, PREMIUM ADJUSTERS, LIGHT IN TUB, UPPER RACK BASKET, ENERGY-STAR®",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "06-Jun-2016",
+    "storeModelCode": "JDB9200CWS",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": ["Whirlpool Direct" ],
+    "features": {
+      "finish":  "stainless",
+      "style": "Euro Style",
+      "width": "24\""
+    },
+    "images:": {
+      "mainImage":  "JMW2430DS_Standalone_1000x1000.png",
+      "thumbnails":  [],
+      "featureImages": [
+        "JMW2430DS_Standalone_550X550.png"
+      ]
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 23.75,
+        "units": "inches"
+      },
+      "height": {
+        "amount": 34.5,
+        "units": "inches"
+      },
+      "depth": {
+        "amount": 26.875,
+        "units": "inches"
+      },
+      "weight": {
+        "amount": 108,
+        "units": "pounds"
+      },
+      "minimumHeight": {
+        "amount": 33.875,
+        "units": "inches"
+      },
+      "degree": {
+        "amount": 49.75,
+        "units": "degrees"
+      },
+      "depthWithDoorOpen": {
+        "amount": 90,
+        "units": "inches"
+      }
+    },
+    "mfgDocuments":  [
+      {
+        "title": "JDB9200CWS Dimension Guide",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Dimension%20Guide_EN-2.pdf?alt=media&token=92eb2e2d-c9cd-4296-b39d-1ba0f743e982",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Energy Guide.pdf",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Energy%20Guide_EN.pdf?alt=media&token=0a53d752-412c-4372-85f8-507c5b00d382",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Installation Instructions",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Installation%20Instruction_EN.pdf?alt=media&token=019717f7-2e33-4680-b4f6-22adb087c798",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Use and Care",
+        "filename": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Use%20and%20Care_EN.pdf?alt=media&token=b8a01fc3-4227-40c4-ba55-66719e451961",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Warranty.pdf",
+        "filename": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Warranty_EN.pdf?alt=media&token=cffabdf0-e6ff-430c-9a4c-63f208614fb6",
+        "dateAdded":  "07-Jun-2016"
+      }
+
+    ]
+  },
+
+  "FBKey-100000013":  {
+    "modelCode": "JUW24FRERS",
+    "class":  "COOLING",
+    "subclass": "wine cellar",
+    "brand": "Jenn-Air",
+    "mfgWebPage": "http://www.jennair.ca/appliances/refrigerators/JUW24FRERS-24-under-counter-wine-cellar/",
+    "shortDescription": "24-inch under counter wine cellar",
+    "extendedDescription": "24\" RIGHT SWING, FLUSH INSTALL, 2 DISTINCT TEMPERATURE ZONES WITH INDEPENDENT FANS AND SENSORS, LIGHT-GUIDED FULL ELECTRONIC CAPACITIVE TOUCH CONTROLS, LED LIGHTS, AUTO LIGHT, MULTI-PANED GLASS, SOFT-CLOSE WINE RACKS WITH ROLL OUT, PULL-OUT BOTTOM DRAWER. (INTERCHANGEABLE EURO & PROSTYLE HANDLE, OPTIONAL PROSTYLE® HANDLE KIT W10588599)",
+    "standaloneOrAccessory": "standalone",
+    "dateCreated":  "06-Jun-2016",
+    "storeModelCode": "JUW24FRERS",
+    "orderabilityStatus": "current",
+    "physicalProduct":  true,
+    "suppliers": ["Whirlpool Direct" ],
+    "features": {
+      "finish":  "stainless",
+      "style": "Euro Style"
+    },
+    "images:": {
+      "mainImage":  "JMW2430DS_Standalone_1000x1000.png",
+      "thumbnails":  [],
+      "featureImages": [
+        "JMW2430DS_Standalone_550X550.png"
+      ]
+    },
+    "marketingDimensions": {
+      "width": {
+        "amount": 23.75,
+        "units": "inches"
+      },
+      "height": {
+        "amount": 34.5,
+        "units": "inches"
+      },
+      "depth": {
+        "amount": 26.875,
+        "units": "inches"
+      },
+      "weight": {
+        "amount": 108,
+        "units": "pounds"
+      },
+      "minimumHeight": {
+        "amount": 33.875,
+        "units": "inches"
+      },
+      "degree": {
+        "amount": 49.75,
+        "units": "degrees"
+      },
+      "depthWithDoorOpen": {
+        "amount": 90,
+        "units": "inches"
+      }
+    },
+    "mfgDocuments":  [
+      {
+        "title": "JDB9200CWS Dimension Guide",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Dimension%20Guide_EN-2.pdf?alt=media&token=92eb2e2d-c9cd-4296-b39d-1ba0f743e982",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Energy Guide.pdf",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Energy%20Guide_EN.pdf?alt=media&token=0a53d752-412c-4372-85f8-507c5b00d382",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Installation Instructions",
+        "fileURL": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Installation%20Instruction_EN.pdf?alt=media&token=019717f7-2e33-4680-b4f6-22adb087c798",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Use and Care",
+        "filename": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Use%20and%20Care_EN.pdf?alt=media&token=b8a01fc3-4227-40c4-ba55-66719e451961",
+        "dateAdded":  "07-Jun-2016"
+      },
+      {
+        "title": "JDB9200CWS Warranty.pdf",
+        "filename": "https://firebasestorage.googleapis.com/v0/b/build-specifier-de179.appspot.com/o/mfg_documents%2FJDB9200CWS_Warranty_EN.pdf?alt=media&token=cffabdf0-e6ff-430c-9a4c-63f208614fb6",
+        "dateAdded":  "07-Jun-2016"
+      }
+
+    ]
+  }
+}

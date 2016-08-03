@@ -1,0 +1,20 @@
+<div>
+  <div *ngIf="!sheets.length">
+    Please Log In
+  </div>
+  <table class="blsp-lsh-selectlist"
+  *ngIf="sheets.length">
+    <tr *ngFor="let sheet of sheets" 
+    (click)="clickedSheet(sheet.id, sheet.name, chck)">
+      <td>
+        <input type="checkbox" #chck>
+      </td>
+      <td> 
+        {{sheet.name}}
+      </td>
+      <td>
+        {{statuses[sheet.id]}}
+      </td>
+    </tr>
+  </table>
+</div>
