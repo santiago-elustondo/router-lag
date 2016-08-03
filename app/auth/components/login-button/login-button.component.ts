@@ -4,14 +4,12 @@ import { Component, ChangeDetectorRef, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth/auth.service';
 import { AuthState } from '../../models/auth-state/auth-state';
 
-//components
-import { WakeUpHackComponent } from '../../../utils/index';
 
 @Component({
   selector: 'blsp-login-button',
   templateUrl: './app/auth/components/login-button/login-button.component.html',
   styleUrls: [ './app/auth/components/login-button/login-button.component.css' ],
-  directives: [ WakeUpHackComponent ],
+  directives: [],
   pipes: []
 })
 export class LoginButtonComponent implements OnInit {

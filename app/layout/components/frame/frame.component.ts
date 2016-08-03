@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 
-//hack
-import { WakeUpHackComponent } from '../../../utils/index';
-
 //components
 import { HeaderComponent } from '../header/header.component';
 import { SideNavComponent } from '../sidenav/sidenav.component';
@@ -18,7 +15,6 @@ import { MD_SIDENAV_DIRECTIVES } from '@angular2-material/sidenav';
   directives: [ 
     HeaderComponent,
     SideNavComponent,
-    WakeUpHackComponent,
     ROUTER_DIRECTIVES,
     MD_SIDENAV_DIRECTIVES
   ],

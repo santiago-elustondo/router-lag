@@ -1,7 +1,6 @@
 import { RouterConfig, provideRouter } from '@angular/router';
 import { DogsComponent } from './dogs/dogs.component';
 import { CatsComponent } from './cats/cats.component';
-import { ImportsComponent } from './price-sources/index';
 import { AuthGuardService, LoginPageComponent } from './auth/index';
 import { FrameComponent } from './layout/index';
 import { LoadingComponent } from './layout/index';
