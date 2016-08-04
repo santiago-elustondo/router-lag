@@ -20,14 +20,9 @@ export class AppComponent {
 
     let x = new BehaviorSubject<boolean>(false);
 
+    /* this freezes view */
     gapi.load('client:auth2', () => {
-      setTimeout(() => x.next(true), 3000);
-    });
-
-    x.subscribe((ready:boolean) => {
-      if(ready){
-          this.router.navigate(['/dogs']);   
-      }
+      this.router.navigate(['/dogs']);  
     });
 
   } 
