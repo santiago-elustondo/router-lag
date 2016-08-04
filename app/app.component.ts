@@ -1,7 +1,8 @@
 import { Component, ViewContainerRef } from '@angular/core';
-import { ROUTER_DIRECTIVES } from '@angular/router';
-import { AuthService } from './auth/index';
+import { ROUTER_DIRECTIVES, Router } from '@angular/router';
+import { BehaviorSubject } from "rxjs/BehaviorSubject";
 
+declare var gapi:any; // grab from global context
 
 @Component({
   selector: 'my-app',
@@ -15,8 +16,20 @@ import { AuthService } from './auth/index';
 })
 export class AppComponent {
 
-  constructor(private authService: AuthService){
-    let h = this.authService.state.getValue();
+  constructor( private router: Router ) {
+
+    let x = new BehaviorSubject<boolean>(false);
+
+    gapi.load('client:auth2', () => {
+      setTimeout(() => x.next(true), 3000);
+    });
+
+    x.subscribe((ready:boolean) => {
+      if(ready){
+          this.router.navigate(['/dogs']);   
+      }
+    });
+
   } 
 
 }
