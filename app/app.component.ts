@@ -1,5 +1,6 @@
 import { Component, ViewContainerRef } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
+import { AuthService } from './auth/index';
 
 
 @Component({
@@ -14,6 +15,8 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 })
 export class AppComponent {
 
-  constructor(){} 
+  constructor(private authService: AuthService){
+    let h = this.authService.state.getValue();
+  } 
 
 }

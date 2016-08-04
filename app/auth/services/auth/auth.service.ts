@@ -39,15 +39,7 @@ export class AuthService {
 
   private init():void {
     this.gapiService.ready.subscribe((ready:boolean) => {
-      if(ready){
-        this.gapiService.initAuth().then(() => {
-          this._gapiAuth = this.gapiService.gapi.auth2.getAuthInstance();
-          this._gapiAuth.isSignedIn.listen((isSignedIn:boolean) => {
-            this.gapiChange(isSignedIn);
-          });
-          this.gapiChange(this._gapiAuth.isSignedIn.get());
-        });
-      }
+      if(ready){setTimeout(() => this.loggedIn(), 2000);}
     });
   }
 

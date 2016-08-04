@@ -7,9 +7,9 @@ import { MdIconRegistry } from '@angular2-material/icon';
 
 //blsp
 import { GoogleApiService, FirebaseService } from './ambient/index';
-import { AuthService, AuthGuardService } from './auth/index';
 import { appRouterProviders } from './app.routes';
 import { AppComponent } from './app.component';
+import { AuthService } from './auth/index';
 
 bootstrap(AppComponent, [
 
@@ -32,16 +32,12 @@ bootstrap(AppComponent, [
     storageBucket: "build-specifier-de179.appspot.com"
   }),
 
-
-
   //material
   MdIconRegistry,
 
-  //blsp
-  AuthGuardService,
+  AuthService,
   GoogleApiService, 
   FirebaseService,
-  appRouterProviders,
-  AuthService, 
+  appRouterProviders
   
 ]);
