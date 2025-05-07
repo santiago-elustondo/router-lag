@@ -9,7 +9,7 @@ inline elements will *end the text node* but not the paragraph
   * tabbing before * signals nested list
   * another child
 * another peer
-### headings will also break a paragraph (and text within)
+## headings will also break a paragraph (and text within)
 unlike a text node, a line break will end the heading and begin a new paragraph but *weirdly* it does not get nested into the heading as a section (which is counterintuitive given their important structural role and commonly implied collapsibility)
 
 *very weirdly,*
@@ -24,6 +24,8 @@ this only applies to paragraphs and AST shows them as just a regular heading *bu
 - not sure what "spead" is, by the way (its always false)
 - ...
 - ^ this doesnt do anything
+### lets try some headings
+# to see how structure is affected
 
 quotes also break paragraphs and
 > ignore single line breaks,
